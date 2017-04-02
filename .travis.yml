@@ -1,0 +1,9 @@
+language: cpp
+sudo: required
+dist: trusty
+os:
+    - linux
+install:
+    - sudo apt-get updte -qq
+script:
+    - cd read-write && mkdir build && cd build && cmake .. && cmake --build .
