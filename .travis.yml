@@ -4,6 +4,6 @@ dist: trusty
 os:
     - linux
 install:
-    - sudo apt-get updte -qq
+    - sudo apt-get update -qq
 script:
     - cd read-write && mkdir build && cd build && cmake .. && cmake --build .
